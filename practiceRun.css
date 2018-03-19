@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(191, 0, 0);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#pokeballImageOne {
+    float: left;
+    width: 20em;
+    height: 20em;
+    
+}
+
+#pokeballImageTwo {
+    float: right;
+    width: 20em;
+    height: 20em;
+    
+}
+
+
+
+#header {
+    font-size: 2em;
+    color: white
+
+}
+
+.container {
+    margin-top: 2%;
+    margin-left: 43.55%;
+}
+
+
+#moveData {
+    display: flex;
+    padding-top: 3em;
+    display: none;
+}
+
+.basicInfo {
+    margin: auto;
+    width: 43%;
+    height: 45em;
+    border-radius: 1%;
+    background-color: rgb(185, 185, 185);
+}
+
+.moveTi {
+    margin-left: 3em;
+    font-size: 3em;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.moveTy {
+    display: inline-block;
+    margin-left: 70%;
+    margin-top: 0em;
+    font-size: 2em;
+}
+
+.flavText {
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 2em;
+    word-wrap: break-word;
+}
+
+.damClass {
+    font-size: 2em;
+    margin-left: 4em;
+    margin-top: 3em;
+}
+
+.metaInfo {
+    margin: auto;
+    width: 43%;
+    height: 45em;
+    border-radius: 1%;
+    background-color: rgb(185, 185, 185);
+}
+
+.movPow {
+    margin-top: 3em;
+    margin-left: 3em;
+    font-size: 2em;
+    display: inline-block;
+    margin-bottom: 5em;
+}
+
+.movAcc {
+    margin-left: 7em;
+    font-size: 2em;
+    margin-right: 2em;
+    display: inline-block;
+}
+
+.movPri {
+    margin-left: 4em;
+    font-size: 2em;
+    display: inline-block;
+}
+
+.movPP {
+    margin-left: 5em;
+    font-size: 2em;
+    display: inline-block;
+}
+
+
+
+#footer {
+    margin-top: 3em;
+}
