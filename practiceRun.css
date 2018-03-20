@@ -111,6 +111,10 @@ body {
 }
 
 
+#starters {
+    position: relative;
+    left: 22%;
+}
 
 #footer {
     margin-top: 3em;
