@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./practiceRun.css">
+    <link rel="stylesheet" type="text/css" href="./moveDex.css">
     <title>Pokemon MoveDex</title>
 </head>
 <body>
-    <img src="./pokeballOne.png" id="pokeballImageOne">
-    <img src="./pokeballOne.png" id="pokeballImageTwo">
+    <img src="./pokeballOne.png" id="pokeballImageOne" style="height:5em;width:5em">
+    <img src="./pokeballOne.png" id="pokeballImageTwo" style="height:5em;width:5em">
 
-    <section id="header">
+    <section id="header" style="font-size: 1em">
         <h2><center>Pokemon Move Dex</center></h2>
         <h3><center>Find out everything you need to know</center></h3>
         <h3><center>to build your perfect Pokemon!</center></h3>
     </section>
     
-
+    
     <hr style="color:rgb(94, 92, 243);background-color:rgb(94, 92, 243);height:1em;border:none;">
-   
+    
     <div class="container">
-    <input type="text" class="form-control" placeholder="Enter a move. . ." id="moveSearch">
-    <span class="input-group-btn">
-            <button class="btn btn-primary" id="searchButton" onclick="searchMove()">Search!</button>
+        <center>
+            <input style="width:22em;" type="text" class="form-control" placeholder="Enter a move. . ." id="moveSearch">
+            <span class="input-group-btn">
+                <button class="btn btn-primary" id="searchButton" onclick="searchMove()">Search!</button>
+                        <div class="pokePicture">
+                            
+                            <img id="starters" src="kantoStarters.png" alt="pokemon" style="height:10em;width:15em;">
+                            
+                        </div>
         </span>
-    </div>
+    </center>
+</div>
 
-    <section id="moveData">
+    <div id="moveData">
 
-        <div class="basicInfo">
+        <section class="basicInfo">
 
         <div class="moveTi"><h3 id="moveTitle"></h3></div>
 
@@ -37,24 +44,21 @@
 
         <div class="flavText"><p id="flavorText"></p></div>
         <div class="damClass"><p id="damageClass"></p></div>
-        </div>
+        </section>
 
 
-        <div class="metaInfo">
+        <section class="metaInfo">
 
         <div class="movPow"><h3>Power: </h3><p id="movePower"></p></div>
         <div class="movAcc"><h3>Accuracy: </h3><p id="moveAcc"></p></div>
         <div class="movPri"><h3>Priority: </h3><p id="movePriority"></p></div>
         <div class="movPP"><h3>Power Points: </h3><p id="movePP"></p></div>
 
-        </div>
+        </section>
 
     
-    </section>
+    </div>
 
-    <div class="pokePicture">
-        <img id="starters" src="kantoStarters.png" alt="pokemon" >
-        </div>
 
     <section id="footer">
         <p><center>A project by Alecx Moritz made with PokeAPI. Thank you!</center></p>

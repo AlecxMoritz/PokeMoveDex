@@ -49,6 +49,7 @@ function searchMove() {
 function popPage(moveData){
     document.getElementById("starters").style.display = "none";
     document.getElementById("moveData").style.display = "flex";
+    
 
     console.log(moveData);
     console.log("Move Details");
